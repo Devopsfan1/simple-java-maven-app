@@ -3,7 +3,7 @@ jdk:
   - openjdk11
 
 script:
-  - ./mvnw clean install
+  - ./mvn clean install
 
 notifications:
   email: pooja.naik2@ibm.com
