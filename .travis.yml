@@ -2,11 +2,8 @@ language: java
 jdk:
   - openjdk11
 
-before_install:
-  - chmod +x mvnw
-
 script:
-  - ./mvnw clean install
+  - ./mvn clean verify
 
 notifications:
   email: pooja.naik2@ibm.com
